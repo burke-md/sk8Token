@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/burke-md/sk8Token#readme",
   "devDependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
     "truffle": "^5.5.12"
   }
 }
