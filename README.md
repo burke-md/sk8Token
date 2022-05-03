@@ -31,7 +31,7 @@ Take special note of three of these contracts : MultiSend, GnosisSafe, GnosisSaf
 - GnosisSafe: The core contract that people and organizations will use a proxy to interact with. 
 ```
 
-- Install dotenv. Wallet and contract address will be held in one file for ease of updating ```npm i dotenv
+- Install dotenv. Wallet and contract address will be held in one file for ease of updating. If deployed locally, contract address will be configured based on particular deployment. Other wise address will be based on pre-deployed contracts ```npm i dotenv```
 
 - Install ethers.js to interact with ethereum within a node project ```npm i ethers```
 
