@@ -12,7 +12,7 @@ contract Sk8Token is ERC20, AccessControl, ERC20Burnable, Pausable {
 
   constructor() ERC20("Sk8Token", "SK8") {
     // @dev Grant the deployer of the contract the highest admin level. This supercede all other roles and is able to asign roles. 
-    _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
+    _setupRole(DEFAULT_ADMIN_ROLE, 0x641b90eaf3f9bF2611Bfb455c5A24601228a0B93);
   }
 
   function pause() public onlyRole(MAINTAIN_ROLE) {
