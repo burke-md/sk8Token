@@ -1,0 +1,22 @@
+{
+  "name": "sk8token",
+  "version": "1.0.0",
+  "description": "This is a small project to explore the Access Control lib made available from [open zeppelin](https://docs.openzeppelin.com/contracts/4.x/access-control#ownership-and-ownable).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burke-md/sk8Token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burke-md/sk8Token/issues"
+  },
+  "homepage": "https://github.com/burke-md/sk8Token#readme",
+  "devDependencies": {
+    "truffle": "^5.5.12"
+  }
+}
