@@ -15,7 +15,7 @@ In particular the [Access Control](https://docs.openzeppelin.com/contracts/4.x/a
 
 A quick [overview](https://www.youtube.com/watch?v=XL0crUpH6Zg) video of the Gnosis multi sig wallet UI is available here.
  
-### Working with Gnosis safe
+### Working with Gnosis safe programmatically
 
 ***
 
