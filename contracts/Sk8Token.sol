@@ -11,7 +11,7 @@ contract Sk8Token is ERC20, AccessControl, ERC20Burnable, Pausable {
   bytes32 public constant MAINTAIN_ROLE = keccak256("MAINTAIN_ROLE");
 
   constructor() ERC20("Sk8Token", "SK8") {
-    // @dev Grant the deployer of the contract the highest admin level. This supercede all other roles and is able to asign roles. 
+    // @dev Grant the deployer of the contract no special authority. Specify a Gnosis safe multi sig contract wallet as Default admin. This supercede all other and is able to asign roles. 
     _setupRole(DEFAULT_ADMIN_ROLE, 0x641b90eaf3f9bF2611Bfb455c5A24601228a0B93);
   }
 
